@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Javascript tutorial</title>
+    <style>
+        .container{
+            border: 2px solid red;
+            padding: 5px 5px 5px 5px;
+            outline: 2px round black;
+            background: cyan;
+            margin :5px;
+            
+        }
+        .bg-primary{
+            background-color: blueviolet;
+        }
+        .text-success{
+            background-color: green;
+        }
+    </style>
+</head>
+
+<body>
+    <h1>Welcome to my javascript tutorial</h1>
+    <div id="firstcontainer" class="container">
+        <button id="click" onclick="clicked()">click me</button>
+        <p>this is the paragrsph which is best para of university </p>
+    </div>
+    <div class="container">
+        <p>this is a paragraph</p>
+    </div>
+    <script src="index.js"></script>
+    <script>
+
+        // in javascript semicolon ; is optional 
+
+        //1.ways to print in javascript
+        // document.write('this is document write')// iisae document par likh sakte hai mtlb html mai paragraph likhne kae kaam aata hai
+        // alert('me');  // alert puarna console log hai jo msg deta hai upar ek rectangle box mai
+
+        //2.javascript console api
+        console.log('hello world', 4 + 6, "another log")
+        console.warn('this is warning'); //console mai warning dene kae kaam aata hai
+        console.error('this is error');  // console mai red colour mai error deta hai
+        // console.clear console par iska use karkae console khali ho jata hai
+    </script>
+</body>
+
+</html>
