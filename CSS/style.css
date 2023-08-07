@@ -1,0 +1,153 @@
+/* li,div{
+    color: red;
+} */
+
+
+/* .class{
+    color: green;
+} */
+
+body {
+    /* background-color: aqua; */
+    /* background-image: url('/p.jpg');
+    background-repeat: no-repeat;
+    background-position: right top; */
+    background-attachment: fixed;
+
+    background: #bbbb0f url(/p.jpg)no-repeat right top;
+    margin: 0px;
+}
+
+.nav {
+    background: #e7e7da;
+}
+
+
+.items {
+    /* background: #be8f18; */
+    display: inline;
+    
+    
+}
+
+.item {
+
+    background: #9098ac;
+    margin:0;
+    list-style-type: none ;
+    margin-top: 50px;
+    width: 50%;
+    text-align: center;
+
+}
+
+
+.color {
+    /* some border styles are dotted , solid ,dashed */
+    /* border-style: solid;
+    border-top-style: dashed;
+    border-width: 2px;
+    border-color: red; */
+    border: 5px solid gray;
+    border-radius: 18px;
+    /* margin-top: 84px;
+    margin-left: 94px;
+    margin-right: 94px; */
+
+    /* margin:23px 56px 67px 0px; */
+    /* margin sequence hai agar ek line mai karna ho toh top right bottom left */
+
+    margin: 50px;
+    /* border kae andar padding hoti hai bahar margin hota hai */
+    padding-top: 70px;
+    width: 50%;
+    height: 250px;
+    outline: 4px solid black;
+    color: blue;
+    text-align: center;
+
+    /* ggogle css box model important */
+
+
+    font-family: sans-serif;
+    font-style: italic;
+    font-size: 20px;
+}
+a{
+    text-decoration: none;
+    text-transform: capitalize;
+    letter-spacing: 2px;
+    color: white;
+    margin: 0px 16px;
+    font-size: 1.5vw;
+    /* google word spacing and text shadow and direction */
+}
+
+a:hover{
+    background-color: #be8f18;
+    color: black;
+    font-size: 2.5em;
+}
+
+a:active{
+    font-size: 2.5em;
+}
+
+.color{
+    /* visibilty content gayab kar deta hai aur display gayb toh karta hai saath hi space bhi hta deta hai */
+
+    /* visibility: hidden; */
+    /* display: none; */
+}
+
+/* #box{
+    position: fixed;
+    bottom: 0px;
+    right: 0px;
+} */
+
+.container{
+    width: 100%;
+    height: 50px;
+    padding: 5px;
+    border: 3px solid black;
+    box-sizing: border-box;
+}
+
+.first{
+    background: red;
+    height: 45px;
+    width: 50%;
+    display: inline-block;
+    float: left;
+}
+
+.second{
+    background: blue;
+    height: 45px;
+    width: 40%;
+    display: inline-block;
+    float: right;
+}
+
+.myflex{
+    background-color: black;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    height: 200px;
+    align-items: center;
+}
+
+
+.myflex div{
+    background: red;
+    width: 80px;
+    height: 80px;
+    font-size: 25px;
+    margin: 8px;
+    justify-content: center; 
+    align-items: center;
+}
+
